@@ -102,12 +102,12 @@ async def start_me(bot, update):
                         InlineKeyboardButton("Help", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton('Support Channel', url='https://t.me/Mai_bOTs'),
-                    InlineKeyboardButton('Feedback', url='https://t.me/No_OnE_Kn0wS_Me')
+                    InlineKeyboardButton('Support', url='https://t.me/unitedsupport'),
+                    InlineKeyboardButton('Updates', url='https://t.me/pegasusupdates')
                 ],
                 [
-                    InlineKeyboardButton('Other Bots', url='https://t.me/Mai_bOTs/17'),
-                    InlineKeyboardButton('Source', url='https://github.com/No-OnE-Kn0wS-Me/FileRenameBot')
+                    InlineKeyboardButton('Other Bots', url='https://t.me/pegasusbots'),
+                    InlineKeyboardButton('Network', url='https://t.me/pegasusxteam')
                 ]
             ]
         ),
