@@ -84,7 +84,7 @@ async def start_me(bot, update):
         try:
             user = await bot.get_chat_member(update_channel, update.chat.id)
             if user.status == "kicked":
-               await update.reply_text(" Sorry,You've Been Flooding Me So My Owner Removed You From Using Me If You Think It's An Error Contact : @Faris_TG")
+               await update.reply_text(" Sorry,You've Been Flooding Me So My Owner Removed You From Using Me If You Think It's An Error Contact : @harshahero")
                return
         except UserNotParticipant:
             await update.reply_text(
@@ -102,12 +102,12 @@ async def start_me(bot, update):
                         InlineKeyboardButton("Help", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton('Support', url='https://t.me/unitedsupport'),
-                    InlineKeyboardButton('Updates', url='https://t.me/pegasusupdates')
+                    InlineKeyboardButton('Support', url='https://t.me/UniversalKidzBotzSupport'),
+                    InlineKeyboardButton('Updates', url='https://t.me/UKUniversalBots')
                 ],
                 [
-                    InlineKeyboardButton('Other Bots', url='https://t.me/pegasusbots'),
-                    InlineKeyboardButton('Network', url='https://t.me/pegasusxteam')
+                    InlineKeyboardButton('devloper', url='https://t.me/harshahero'),
+                    InlineKeyboardButton('owner', url='https://t.me/UniversalKidz')
                 ]
             ]
         ),
